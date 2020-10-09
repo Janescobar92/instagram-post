@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    height: 510px;
+    width: 400px;
+    font-family: 'Open Sans', sans-serif;
+}
+.container * i{
+    font-size: 30px;
+}
+.container .head .html5 .title {
+    font-size: 10px;
+    line-height: 0px;
+}
+.container .head{
+/* background-color: blue; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 70px;
+padding: 0px 5px 0px 5px;
+}
+.container .head .html5{
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+
+}
+.html5{
+    
+}
+.container .head .title{
+/* background-color: red; */
+padding: 0;
+font-size: 10px;
+}
+
+.container .body .img{
+width: 100%;
+}
+.container .footer{
+/* background-color: rgb(255, 255, 255); */
+padding: 0px 5px 10px 5px;
+}
+
+.container .footer .icon{
+/* background-color: brown; */
+display: flex;
+justify-content: space-between;
+}
+.container .footer .text{
+/* background-color: pink; */
+margin: 5px 5px;
+}
+img{
+    width:100%;
+    }
+.container .footer .text p{
+ font-size: 0.8em;
+}
